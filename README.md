@@ -24,11 +24,11 @@ A complete machine learning project building a fake news detector with 95.2% acc
 
 ```
 truthlens/
-├── notebooks/              # Jupyter notebooks for each week
-│   ├── week1_eda.ipynb
-│   ├── week2_preprocessing.ipynb
-│   ├── week3_models.ipynb
-│   └── week4_bert.ipynb
+├── notebooks/              # Jupyter notebooks for each milestone
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_text_preprocessing.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_bert_fine_tuning.ipynb
 ├── backend/               # FastAPI server
 │   ├── main.py
 │   ├── model.py
@@ -51,10 +51,10 @@ cd truthlens
 pip install -r requirements.txt
 ```
 
-### 2. Week 1: Foundation & EDA
+### 2. Data Exploration
 Run the Jupyter notebook:
 ```bash
-jupyter notebook notebooks/week1_eda.ipynb
+jupyter notebook notebooks/01_data_exploration.ipynb
 ```
 
 ### 3. Dataset
@@ -64,14 +64,14 @@ kaggle datasets download -d clementbisaillon/fake-and-real-news-dataset
 unzip fake-and-real-news-dataset.zip -d data/
 ```
 
-## Weeks Breakdown
+## Project Milestones
 
-### Week 1: Foundation + Setup
+### Milestone 1: Data Exploration + Setup
 - Python environment setup
 - Dataset download & EDA
 - Basic exploratory analysis with visualizations
 
-### Week 2: NLP Preprocessing
+### Milestone 2: Text Preprocessing
 - Text cleaning & tokenization
 - NLTK pipeline (stopwords, lemmatization)
 - TF-IDF vectorization (5000 features)
@@ -114,4 +114,4 @@ Created as a complete ML portfolio project.
 
 ---
 
-**Status**: Week 1 - Foundation Setup ✅
+**Status**: Milestone 1 - Foundation Setup ✅
