@@ -5,7 +5,11 @@
 
 # Models
 /backend/models/*.pkl
+/backend/models/*.joblib
+/backend/models/*.pth
+/backend/models/*.h5
 /backend/models/bert_model/
+/backend/models/checkpoints/
 /backend/models/*.pth
 
 # Python
