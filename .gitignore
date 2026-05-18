@@ -9,6 +9,7 @@
 /backend/models/*.pth
 /backend/models/*.h5
 /backend/models/bert_model/
+/backend/models/distilbert-finetuned/
 /backend/models/checkpoints/
 /backend/models/*.pth
 
@@ -20,7 +21,9 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
+*.whl
 build/
 develop-eggs/
 dist/

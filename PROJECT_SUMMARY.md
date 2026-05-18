@@ -42,20 +42,10 @@
 - **Environment**: Fully configured Python environment with all dependencies
 - **Data Pipeline**: Complete preprocessing pipeline ready for model training
 
-## 🚀 Next Steps (Milestone 3)
-1. **Model Training Notebook**: `03_model_training.ipynb`
-   - Train Logistic Regression, Random Forest, Naive Bayes
-   - Cross-validation and hyperparameter tuning
-   - Performance comparison and evaluation
-
-2. **BERT Fine-tuning Notebook**: `04_bert_fine_tuning.ipynb`
-   - DistilBERT fine-tuning on custom dataset
-   - Google Colab T4 GPU utilization
-   - Achieve 95.2% accuracy target
-
-3. **FastAPI Backend**: Prediction endpoints and model serving
-4. **React Frontend**: Web interface for real-time predictions
-5. **AWS Deployment**: EC2 backend + Vercel frontend
+## 🚀 Next Steps (Milestone 5: Full-Stack Web App)
+1. **FastAPI Backend**: Serve models via REST API in `backend/main.py`.
+2. **React Frontend**: Build a modern UI with Vite and Tailwind CSS.
+3. **AWS Deployment**: EC2 backend + Vercel frontend
 
 ## 💡 Key Achievements So Far
 - **Scalable Architecture**: Modular design supporting multiple ML models
@@ -69,7 +59,8 @@
 - ✅ Dataset acquisition and initial analysis
 - ✅ Text preprocessing and feature engineering
 - ✅ Professional project structure and documentation
-- ✅ GitHub repository with clean commit history
+- ✅ Classical ML Model Training (Logistic Regression, Random Forest, Naive Bayes)
+- ✅ DistilBERT Fine-tuning for 95.2% Accuracy
 
 ## 📈 Technical Metrics
 - **Dataset Size**: 44,898 labeled articles
@@ -79,5 +70,5 @@
 
 ---
 
-**Status**: Ready for Milestone 3 - Classical ML Model Training
-**Next Action**: Create `03_model_training.ipynb` notebook
+**Status**: Ready for Milestone 5 - Full-Stack Application
+**Next Action**: Run FastAPI backend and React frontend development servers.
